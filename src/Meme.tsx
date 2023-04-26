@@ -69,7 +69,7 @@ const Meme = () => {
       >
         Skip
       </button>
-      {captions.map((c, index) => (
+      {captions.map((_, index) => (
         <input
           key={index}
           onChange={(e) => updateCaption(e, index)}
